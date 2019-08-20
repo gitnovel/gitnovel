@@ -5,9 +5,10 @@ module.exports = {
     title: 'gitnovel',
     description: '하나의 책 천개의 이야기',
     keywords: 'git, github, novel, fiction',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    siteUrl: 'https://gitnovel.netlify.com',
     author: {
       name: 'gitnovel',
+      url: 'https://github.com/gitnovel',
       email: 'gitnovell@gmail.com'
     }
   },
@@ -47,7 +48,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
+        siteUrl: 'https://github.com/gitnovel'
       }
     },
     'gatsby-plugin-emotion',
